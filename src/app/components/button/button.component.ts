@@ -7,16 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
- @Input()text: string ="";
- @Input()color: string ="";
+ @Input()text: string = "";
+ @Input()color: string = "";
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
   onClick(){
     console.log("Click!")
   }
-
 }
